@@ -71,9 +71,14 @@ body{
 }
 
 #plant_main_body{
+
+    display: flex;
+    position: relative;
+    bottom: -20px;
     width: 100%;
     padding: 0px;
     margin: 0px;
+    box-shadow: none;
 }
 .mainbody_content{
     text-align: center;
@@ -113,7 +118,12 @@ body{
 
 
 #about{
-    background-color: #D5E6DC;
+    background-color: #ffffff;
     color: #367D53;
     padding: 10px 25px;
+    justify-content:space-between
+}
+.about_section{
+    width: 40%;
+    
 }
