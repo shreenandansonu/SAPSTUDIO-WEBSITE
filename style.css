@@ -18,23 +18,45 @@ body{
     justify-content:space-between ;
     background-color: #367D53;
     padding:10px 25px;
-    /* border-style: dotted;
-    border-width: 0px 0px 5px 0px;
-    border-color: rgb(255, 255, 255); */
 }
 #nav:hover{
-    background-color: #235337;
+    border: dotted;
+    border-width: 0px 0px 3px 0px;
+    border-color: #D5E6DC;
 }
 
 #logo{
     height: 80px;
+    align-items: center;
 }
-.logo h3{
+.logo a{
     display: flex;
     flex-direction: row;
     font-size: x-large;
+    padding: 10px;
+    color: #D5E6DC;
+    text-decoration: none;
 
 }
+.logo a:hover{
+    color: #F8FCFB;
+    text-decoration:overline;
+}
+#tabs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#tabs a{
+    padding-right: 30px;
+}
+#line{
+    border: dotted;
+    border-width: 0px 3px 0px 0px;
+    border-color: #D5E6DC;
+}
+
 #mainbody{
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
@@ -60,14 +82,7 @@ body{
     padding: 0px 20px;
     
 }
-#tabs{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-#tabs h3{
-    padding-right: 30px;
-}
+
 #tagline{
     font-size: 55px;
     text-align: center;
@@ -83,6 +98,19 @@ body{
     padding: 15px 0px;
     margin: 0px;
 }
+#shop_button_main{
+    background-color: #D5E6DC;
+    font-size:large;
+    padding: 15px 40px;
+    margin: 0%;
+    border-radius: 10px;
+    color: #367D53;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 900;
+    text-decoration: none;
+}
+
 
 #about{
     background-color: #D5E6DC;
