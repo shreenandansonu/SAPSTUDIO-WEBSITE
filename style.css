@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    background-color: #367D53;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Playfair Display", serif;
+    color: #F8FCFB;
+}
+
+
+#nav{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    background-color: #367D53;
+    padding:10px 25px;
+    /* border-style: dotted;
+    border-width: 0px 0px 5px 0px;
+    border-color: rgb(255, 255, 255); */
+}
+#nav:hover{
+    background-color: #235337;
+}
+
+#logo{
+    height: 80px;
+}
+.logo h3{
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+
+}
+#mainbody{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding:50px 25px 0px 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #D5E6DC;    
+    justify-content:space-between ;
+}
+
+#plant_main_body{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.mainbody_content{
+    text-align: center;
+    width: 33%;
+    font-size: 50px;
+    padding: 0px 20px;
+    
+}
+#tabs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#tabs h3{
+    padding-right: 30px;
+}
+#tagline{
+    font-size: 55px;
+    text-align: center;
+    font-weight: 100;
+    
+}
+#company{
+    text-align: center;
+    
+}
+#company h3,h6{
+    line-height: 1.2;
+    padding: 15px 0px;
+    margin: 0px;
+}
+
+#about{
+    background-color: #D5E6DC;
+    color: #367D53;
+    padding: 10px 25px;
+}
