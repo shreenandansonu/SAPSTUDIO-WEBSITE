@@ -74,7 +74,7 @@ body{
 
     display: flex;
     position: relative;
-    bottom: -20px;
+    bottom: -25px;
     width: 100%;
     padding: 0px;
     margin: 0px;
@@ -118,12 +118,59 @@ body{
 
 
 #about{
-    background-color: #ffffff;
+    background-color: #D5E6DC;
     color: #367D53;
-    padding: 10px 25px;
-    justify-content:space-between
+    padding: 50px 25px;
+    justify-content:space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .about_section{
-    width: 40%;
+    width: 30%;
+    padding: 10px;
+    color: black;
     
 }
+#textabout h4{
+    font-size: xx-large;
+    text-align: center;
+}
+
+#textabout p{
+    text-align: justify;
+    font-style: italic;
+    font-size: large;
+}
+
+#iamges{
+    display: flex;
+    flex-direction: column;
+  
+}
+#dev{
+    width: 90%;
+}
+.about_icon{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    margin: 10px;
+    border-radius: 7px 21px;
+    border-width: 3px;
+    border-color: #367D53;
+    border-style: solid;
+    color: black;
+    justify-content: space-around;
+    
+}
+.about_icon_img{
+    width: 70px;
+    padding: 10px;
+}
+.about_icon h4 {
+    font-size: x-large;
+    padding:5px 20px;
+    text-align: right;
+}
+
